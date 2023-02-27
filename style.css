@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+body{
+   
+    font-family: 'Gulzar', serif;
+    text-align: center;
+    background-color: #212529;
+    color: aliceblue;
+    margin : 0 0 0 0;
+    
+
+}
+header{
+    width: 100%;
+    height: 40vh;
+    border-bottom: 3px #fff solid;
+    top:0;
+    margin: -4px 0 0 0;
+   
+
+}
+h1{
+    margin-top: 1px;
+}
+header.masthead{
+    text-align:center;
+    color:#fff;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover;
+    background-image: url('bg\ \(3\).jpg');
+}
+.container{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.unstyled{
+    list-style: none;
+    
+
+}
+.mx{
+   
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.item{
+    width: 60px;
+    height: 40px;
+    
+}
+.position{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+
+   
+}
+.justify-content{
+    margin: auto;
+    justify-content: center;
+}
+
+.time{
+    border: 2px solid #000;
+  
+    background-color: aliceblue;
+    color: #000;
+    
+
+}
+.fanoos{
+    position: fixed;
+    margin-top: 59px;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+   
+}
+.circle{
+    box-shadow: 4px         50px 295px 93px rgba(240,217,112,0.55);
+    -webkit-box-shadow: 4px 50px 295px 93px rgba(240,217,112,0.55);
+    -moz-box-shadow: 4px    50px 295px 93px rgba(240,217,112,0.55);
+    width: 1px;
+    height: 1px;
+    border-radius: 50%; 
+    margin-top: -70px;
+    margin-right: -50px;
+    top : 40;
+    left: 50%;
+
+    /* horizontal and vertical*/
+     /* blur*/
+     /* opacity*/
+}
+button{
+    background-color: #2e373f;
+    color: aliceblue;
+}
